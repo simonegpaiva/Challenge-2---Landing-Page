@@ -36,6 +36,8 @@ body{
 
 .box1{
   background-image: url(./images/image-header-desktop.jpg);
+  background-color: var(--accent);
+  background-blend-mode: multiply;
   background-size: cover;
   width: 450px;
   height: 400px;
