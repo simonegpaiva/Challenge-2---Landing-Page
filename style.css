@@ -21,38 +21,40 @@ body{
 .container{
   display: flex;
   background-color: var(--stats);
-  width: 800px;
-  height: 330px;
-  margin: 120px auto;
-  border-radius: 8px;
+  width: 900px;
+  height: 400px;
+  margin: 70px auto;
+  border-radius: 10px;
 }
 
 .box{
   background-color: var(--cardBackground);
-  width: 400px;
-  height: 330px;
+  width: 450px;
+  height: 400px;
+  border-radius: 10px 0 0 10px;
 }
 
 .box1{
   background-image: url(./images/image-header-desktop.jpg);
   background-size: cover;
-  width: 400px;
-  height: 330px;
+  width: 450px;
+  height: 400px;
+  border-radius: 0 10px 10px 0;
 }
 
 h1{
-  margin: 40px 40px 30px 40px;
+  margin: 40px 40px 30px 60px;
   font-family: var(--fonte2);
   color: var(--stats);
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
 
 .text{
   color: var(--paragraph);
   font-family: var(--fonte1);
-  margin: 0px 40px 20px 40px;
+  margin: 0px 80px 20px 60px;
   font-size: .8rem;
-  line-height: 1.2rem;
+  line-height: 1.6rem;
 }
 
 span{
@@ -64,8 +66,9 @@ span{
   color: var(--stats);
   display: flex;
   flex-direction: row;
-  padding: 30px 40px;
+  padding: 40px 60px;
   justify-content: space-between;
+  
 }
 
 h3{
@@ -84,6 +87,7 @@ p{
   font-size: 11px; 
   text-align: center;
   color: var(--stats);
+  padding-top: 50px;
 }
 
 .attribution a { 
